@@ -91,7 +91,7 @@ There are two things you can do about this warning:
 
 ;; org-reveal
 ;; wiki https://github.com/joaotavora/yasnippet
-(add-to-list 'load-path "~/.emacs.d/plugins/org-reveal")
+(add-to-list 'load-path "~/.emacs.d/my-installs/org-reveal")
 (require 'ox-reveal)
 
 ;; all-the-icons

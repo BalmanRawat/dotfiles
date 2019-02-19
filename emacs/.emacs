@@ -40,7 +40,7 @@ There are two things you can do about this warning:
 ;; wiki https://github.com/kunalb/poet
 (add-hook 'text-mode-hook
                (lambda ()
-                 (variable-pitch-mode 1)))
+                 (variable-pitch-mode 0)))
 
 (flyspell-mode 1)        ;; Catch Spelling mistakes
 (typo-mode 1)            ;; Good for symbols like em-dash
@@ -48,8 +48,10 @@ There are two things you can do about this warning:
 (linum-mode 0)           ;; No line numbers for prose
 
 (set-face-attribute 'default nil :family "Iosevka" :height 120)
+;; wiki
+https://github.com/be5invis/Iosevka
 (set-face-attribute 'fixed-pitch nil :family "Iosevka")
-(set-face-attribute 'variable-pitch nil :family "Baskerville")
+;;(set-face-attribute 'variable-pitch nil :family "Baskerville")
 
 ;; wiki https://www.emacswiki.org/emacs/CustomThemes
 (let ((basedir "~/.emacs.d/themes/"))

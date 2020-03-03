@@ -1,3 +1,28 @@
 export GOPATH=$(go env GOPATH)
 export GOBIN=$(go env GOPATH)/bin
 export PATH=$GOBIN:$PATH
+
+# python pip installation
+export PATH=$PATH:/Users/balmanrawat/Library/python/2.7/bin
+export PATH=$PATH:/usr/local/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/bin/
+export PATH=$PATH:/Users/balmanrawat/Library/Python/3.7/bin
+
+# python 3
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+# node version manager
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# source sputnik vars
+source ~/.sputnik-envs
+
+## Locale stuffs
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+### Path for sonarqube
+export PATH=$PATH:/Users/balmanrawat/cloudfactory/devops/rnd/staticodeanalysis/sonarqube/bin
+
+### Path for the maven
+export PATH=$PATH:/opt/apache-maven-3.6.0/bin
